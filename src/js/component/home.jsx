@@ -11,11 +11,11 @@ const Home = () => {
 	return (
 		<>
 		<Navbar/>
-		<div className="container-fluid col-12">
-			<div>
+		<div className="container col-9">
+			<div className="container col-12">
 			<Jumbotron/>
 			</div>
-			<div className="container-fluid d-flex">
+			<div className="container col-12 d-flex">
 			<Card/>
 			<Card/>
 			<Card/>

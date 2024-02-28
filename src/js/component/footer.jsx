@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
 	return (
-    <div className="card text-center col-12">
-		<div className="card-footer-expand-lg bg-dark text-white">
-    Copyrigth
+    // <div className="card text-center">
+		<div className="footer-expand-lg bg-dark text-center text-white pb-5">
+    Copyrigth Your Website 2019
         </div>
-    </div>
+    // </div>
 	);
 };
 

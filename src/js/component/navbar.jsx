@@ -2,9 +2,9 @@ import React from "react";
 
 const Navbar = () => {
 	return (
-        <nav className="navbar navbar-expand-lg text-white bg-dark">
-  <div className="container-fluid">
-    <a className="navbar-brand text-white" href="#">Start Bootstrap</a>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div className="container">
+    <a className="navbar-brand text-white" href="https://getbootstrap.com/">Start Bootstrap</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -31,13 +31,15 @@ const Navbar = () => {
           <a className="nav-link text-white" aria-disabled="true">Contact</a>
         </li>
       </ul>
-      <form className="d-flex" role="search">
+      {/* <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </form> */}
     </div>
   </div>
 </nav>
+
+
 // 		<nav className="navbar navbar-expand-lg bg-dark">
 //   <div className="container-fluid">
 //     <a className="navbar-brand text-white" href="#">Navbar</a>
