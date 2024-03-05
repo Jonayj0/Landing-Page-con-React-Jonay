@@ -13,3 +13,7 @@
 .bg-secondary {
     --bs-bg-opacity: 0.2;
 }
+
+#top {
+    margin-top: 70px !important;
+}
